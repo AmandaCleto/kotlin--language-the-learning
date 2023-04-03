@@ -52,6 +52,8 @@ fun main() {
 //
 //    //PAIRS CLASSES
 //    dc3.usageOfPairs()
+//
+//    //ABSTRACT CLASSES -> POO -> GO BELOW
 
 
     //DESTRUCTION
@@ -109,6 +111,23 @@ fun main() {
 //    instrument.printInstrument()
 
 
-    //ABSTRACT
+    //ABSTRACT CLASSES
+//    var c = Circle("circle")
+//    c.shape()
+//    println("")
+//    c.build()
+//    println("")
+//
+//    var p = Pentagon("pentagon")
+//    p.build()
+//    println("")
+//    p.shape()
+//    println("")
+//    p.redefine()
 
+
+    //INTERFACE
+//    var m = Musician(name = "Jim Halpert")
+//    m.playable = Drums() //could be any instrument that implements Playable!
+//    m.startToPlay()
 }
