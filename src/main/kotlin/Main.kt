@@ -130,4 +130,17 @@ fun main() {
 //    var m = Musician(name = "Jim Halpert")
 //    m.playable = Drums() //could be any instrument that implements Playable!
 //    m.startToPlay()
+
+
+    //COLLECTIONS
+    var array = Collections()
+    array.executeSets()
+    println("")
+    array.executeFixed()
+    println("")
+    array.executeDynamic()
+    println("")
+    array.combinationOfLists()
+    println("")
+    array.filteringLists()
 }
