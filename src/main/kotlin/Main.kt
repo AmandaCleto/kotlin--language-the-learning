@@ -143,4 +143,19 @@ fun main() {
     array.combinationOfLists()
     println("")
     array.filteringLists()
+    println("")
+    array.usageOfMaps()
+
+
+    //FUNCTIONS
+//    var f = Functions()
+//    f.printResultCalculated(3, 4, f::sum)
+//    println("")
+////    f.printResultCalculated(3, 4, { x, y -> x + y })
+//    f.printResultCalculated(3, 4) { x, y -> x + y }
+//    f.usageOfOtherFunctionsAsFilters()
+//    println("")
+//    f.mergeTwoListsWithoutRepeatingIt()
+//    println("")
+//    f.typesOfFor()
 }

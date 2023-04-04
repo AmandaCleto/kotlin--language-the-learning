@@ -82,7 +82,7 @@ class Collections {
         val a = mutableListOf("amanda", "jonas")
         val b = listOf("caio", "ingrid")
 
-        b.filterTo(a, {it.contains("a")})
+        b.filterTo(a, { it.contains("a") })
         println(a)
 
         //create a new list with the combination of two lists
@@ -98,13 +98,73 @@ class Collections {
     fun filteringLists() {
         var f = mutableListOf("what", "about", "all", "the", "things")
         val filtered = f.filter { //there is filterNot too
-            f -> f.lowercase().contains("h")
+                f ->
+            f.lowercase().contains("h")
         }
         filtered.forEach { println(it) }
 
-        val filteredObject = f.firstOrNull {it == "we"}
+        val filteredObject = f.firstOrNull { it == "we" }
         println(filteredObject)
+    }
+
+
+    // MAPS
+    fun usageOfMaps() {
+        //IMMUTABLE
+        val products = mapOf(
+            "key" to "value",
+            "fanta" to "coca-cola",
+            "iphone" to "apple"
+        )
+
+        //accessing second value by its key
+        val fantaValue = products["fanta"]
+        println(fantaValue)
+
+
+        //when get a value by passing a wrong key
+        //you can specify a default value to be returned, otherwise, null would be returned
+        val nonexistentValue = products.getOrDefault(
+            "grape", "there is no" +
+                    " \"grape\" key in products list"
+        )
+        println(nonexistentValue)
+
+        //when get a value by passing a wrong key
+        //you can do something else and then specify a default value to be returned,
+        //otherwise, null would be returned
+        val nonexistentValueElse = products.getOrElse("grape") {
+            println("does something...")
+            "there is no \"grape\" key in products list"
+        }
+        println(nonexistentValueElse)
+
+
+        //if contains something, does something
+        val hasSomething = products.containsKey("fanta")
+        if (hasSomething) {
+            println("contains fanta")
+        } else {
+            println("does not contain fanta")
+        }
+
+
+        //MUTABLE - update ( delete, update )
+        val products2 = mutableMapOf(
+            0 to "cellphone",
+            1 to "notebook",
+            2 to "computer"
+        )
+
+        products2[0] = "smartphone"
+        println(products2.values)
+
+        products2.remove(0)
+        println(products2.values)
+
+        products2[3] = "new product"
+        println(products2.values)
     }
 }
 
-class ObjectAnimal(var name: String, var type: String) {}
+data class ObjectAnimal(var name: String, var type: String) {}
