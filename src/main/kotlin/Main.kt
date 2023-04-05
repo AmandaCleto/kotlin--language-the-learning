@@ -133,18 +133,18 @@ fun main() {
 
 
     //COLLECTIONS
-    var array = Collections()
-    array.executeSets()
-    println("")
-    array.executeFixed()
-    println("")
-    array.executeDynamic()
-    println("")
-    array.combinationOfLists()
-    println("")
-    array.filteringLists()
-    println("")
-    array.usageOfMaps()
+//    var array = Collections()
+//    array.executeSets()
+//    println("")
+//    array.executeFixed()
+//    println("")
+//    array.executeDynamic()
+//    println("")
+//    array.combinationOfLists()
+//    println("")
+//    array.filteringLists()
+//    println("")
+//    array.usageOfMaps()
 
 
     //FUNCTIONS
@@ -158,4 +158,10 @@ fun main() {
 //    f.mergeTwoListsWithoutRepeatingIt()
 //    println("")
 //    f.typesOfFor()
+
+
+    //EXCEPTIONS
+    var e = Exceptions()
+    e.casts()
+    e.exceptions()
 }
