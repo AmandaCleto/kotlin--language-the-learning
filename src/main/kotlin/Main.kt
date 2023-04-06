@@ -20,12 +20,16 @@ fun main() {
 
     //CLASSES TYPES
     //CLASS
-//    var c = TypesOfClasses()
+//    var c = TypesOfClassesImp()
 //    c.printName() //instance function
 //    println("")
 //
+//    var d = NormalClass("abc")
+//    d.doesSomething()
+
+//
 //    //NESTED CLASS
-//    TypesOfClasses.NestedClass().printName()
+//    TypesOfClassesImp.NestedClass().printName()
 //    println("")
 //
 //    //INNER CLASS
@@ -131,6 +135,12 @@ fun main() {
 //    m.playable = Drums() //could be any instrument that implements Playable!
 //    m.startToPlay()
 
+    //DELEGATION INTERFACE
+//    var delegation = PrinterWithHeader(PrinterDefault())
+//    delegation.printWithHeader("Print anything")
+//    println("")
+//    delegation.print("print anything")
+
 
     //COLLECTIONS
 //    var array = Collections()
@@ -161,7 +171,7 @@ fun main() {
 
 
     //EXCEPTIONS
-    var e = Exceptions()
-    e.casts()
-    e.exceptions()
+//    var e = Exceptions()
+//    e.casts()
+//    e.exceptions()
 }

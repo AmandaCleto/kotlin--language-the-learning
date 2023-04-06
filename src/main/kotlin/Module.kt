@@ -1,4 +1,4 @@
-//Internal: class only visible to this file
+//Internal: class only visible to this module
 internal class Stringing(val numberOfStrings: Int)
 
 open class Instrument(var color: String) {
