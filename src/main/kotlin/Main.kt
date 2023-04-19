@@ -177,4 +177,22 @@ fun main() {
 
 
     //EXTENSIONS
+//    var e = Extensions()
+//    e.execute()
+
+
+    //Generics
+//    var g1 = Generics.ClassGeneric<String>("amanda")
+//    g1.whatIsTheT();
+//
+//    var g2 = Generics.ClassGeneric<Int>(12)
+//    g2.whatIsTheT();
+//
+//    Generics().printElementType<String>("amanda");
+//
+//    Generics().bookLibraryUsingInOut()
+
+
+    //Types Of Variables
+    println(TypesOfVariables().qtdeCharacteres)
 }
