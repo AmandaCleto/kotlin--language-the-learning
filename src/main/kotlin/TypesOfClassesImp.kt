@@ -3,12 +3,14 @@ class TypesOfClassesImp {
 
     fun printName() = println("Class default variable: $defaultValue")
 
-    //nested classes: don't have access to above classes
+    //nested classes: don't have access to properties/methods of its father class
+    //TypesOfClassesImp.NestedClass()
     class NestedClass{
         fun printName() = println("Can't use outside variables such as defaultValue")
     }
 
-    //inner classes: have access to above classes
+    //inner classes: have access to above properties/methods of its father class
+    //TypesOfClassesImp().NestedClass()
     inner class InnerClass {
         fun printName() = println("Can use outside variables, such as defaultValue: $defaultValue")
     }

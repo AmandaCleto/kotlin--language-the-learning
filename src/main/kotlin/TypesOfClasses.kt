@@ -41,7 +41,15 @@ class UsageOfInheritMethods : Class() {
 //DATA CLASS:
 //Used to model a class as an object, having some functionalities as equals(), copy(), etc.
 //It must have at least one param
+//When two data classes are compared, their data that will be compared
 data class DataClassMustHaveParam(var param: String) {}
+
+//When you want to work with simple structure of data, like two values or three, use pair, or triple
+
+//  key -> value
+//  Pair(10, 20) --> it's also a data class (other way to write it -> 10 to 20)
+//  Triple(10, 20, 30) --> it's also a data class (other way to write it -> 10 to 20 to 30)
+
 //---------------------------------------------------------------------------------------------
 
 
@@ -52,7 +60,7 @@ class SimpleClass() {}
 
 
 //OPEN CLASS:
-//Open classes can be inherited
+//Open classes can be inherited (example above file)
 open class OpenClass() {}
 //---------------------------------------------------------------------------------------------
 

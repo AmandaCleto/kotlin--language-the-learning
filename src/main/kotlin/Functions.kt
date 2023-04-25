@@ -1,4 +1,27 @@
 class Functions {
+    //declaration
+    fun normalDeclaration() {
+        println("one instruction only")
+    }
+    fun normalDeclaration2() = println("one instruction only")
+
+    //named params
+    fun namedParams(name: String, lastName: String) = println("$name $lastName")
+    //namedParams(lastName="laila", name="cleto")
+
+
+    //Overcharge of Functions:
+    //functions can have the same name, if they expect different types
+    fun first(message: String) = println("Passing a String=$message")
+    fun first(message: Int) = println("Passing a Int=$message")
+
+
+    //default values in params
+    fun defaultValues(name: String = "laila") = println(name)
+    //defaultValues() //works!
+    //defaultValues("syndi") //works!
+
+
     //pure functions
     fun sum(x: Int, y: Int): Int {
         return x + y

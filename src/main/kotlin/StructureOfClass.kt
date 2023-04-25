@@ -1,6 +1,7 @@
+//class StructureOfClass constructor(var name: String, var isAdmin: Boolean) {
 class StructureOfClass (var name: String, var isAdmin: Boolean) {
     //VARIABLES
-    //private variables: Not seen by instance, only by class
+    //private variables: Not seen by instance, only by inside the class
     private val MAX_NUMBER = 10
 
     //simple variables: Seen by instance
@@ -21,7 +22,7 @@ class StructureOfClass (var name: String, var isAdmin: Boolean) {
 
 
     //LIFE CYCLE
-    //init: executed after class first constructor
+    //init: executed after first constructor
     init {
         println("called after first constructor")
         countObjectMutable++

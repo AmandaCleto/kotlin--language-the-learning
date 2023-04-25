@@ -18,6 +18,17 @@ fun main() {
 //    s2.printName()
 
 
+    //CONDITIONS
+//    Conditions().usageOfWhen(true)
+//    println("")
+//    Conditions().usageOfWhen(false)
+//    println("")
+//    Conditions().usageOfIfElse(true)
+//    println("")
+//    Conditions().usageOfIfElse(false)
+//    println("")
+
+
     //CLASSES TYPES
     //CLASS
 //    var c = TypesOfClassesImp()
@@ -81,17 +92,6 @@ fun main() {
 //    //copy
 //    val des2 = des.copy(name = "Aru Maito")
 //    println("Copied object with different name = ${des2.name}")
-
-
-    //CONDITIONS
-//    Conditions().usageOfWhen(true)
-//    println("")
-//    Conditions().usageOfWhen(false)
-//    println("")
-//    Conditions().usageOfIfElse(true)
-//    println("")
-//    Conditions().usageOfIfElse(false)
-//    println("")
 
 
     //HERITAGE
@@ -168,6 +168,12 @@ fun main() {
 //    f.mergeTwoListsWithoutRepeatingIt()
 //    println("")
 //    f.typesOfFor()
+//    f.namedParams(name="Belinha", lastName = "Cleto")
+//    f.defaultValues("syndi")
+//    f.defaultValues()
+//    f.first("String!!!")
+//    f.first(10)
+
 
 
     //EXCEPTIONS
