@@ -26,7 +26,16 @@ open class Class {
         }
     }
 
-    //Can be used too: internal and all above key-words within functions, and also, all below types of classes
+
+    //ABSTRACT FUN:
+    //Can only be declared inside abstract classes [not here]
+    //When created, the inherited class needs to override it and give it a behavior, that's
+    //why, it can't have a body {} where is declared
+
+//    abstract fun AbstractFun()
+
+    //Can be used too: internal and all above key-words within functions, and also,
+    //all below types of classes
 }
 
 class UsageOfInheritMethods : Class() {
@@ -73,6 +82,8 @@ private class PrivateClass() {}
 
 //INTERNAL CLASS:
 //Internal classes can only be used by within the module it was created
+//Cannot be used directed by some inherited class that uses it, you should create a
+//setter instead of using it directly
 internal class InternalClass() {}
 //---------------------------------------------------------------------------------------------
 

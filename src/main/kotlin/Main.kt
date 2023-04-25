@@ -200,5 +200,7 @@ fun main() {
 
 
     //Types Of Variables
-    println(TypesOfVariables().qtdeCharacteres)
+//    println(TypesOfVariables().qtdeCharacteres)
+
 }
+
