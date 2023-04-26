@@ -57,7 +57,7 @@ data class DataClass(var name: String) {
     }
 }
 
-//Sealed classes can only be subclassed by classes of its declaration file
+//Sealed classes can only be subclassed by classes of its declaration module
 sealed class TheSealedClass(private var param: String) {
     fun doesSomething() {
         println(param)

@@ -43,7 +43,7 @@ class Generics {
         //here we create an ice cream store called sofiaIceCreams
         var sofiaIceCreams = SofiaIceCreams<ChocolateIceCream>()
 
-        //here we create an ice cream store called sofiaIceCreams
+        //here we create ice cream stores called blinkIceCreams
         var blinkIceCreamsGrape = BlinkIceCreams<GrapeIceCream>()
         var blinkIceCreamsChocolate = BlinkIceCreams<ChocolateIceCream>()
 

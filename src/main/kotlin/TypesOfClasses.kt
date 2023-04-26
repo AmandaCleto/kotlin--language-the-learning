@@ -34,8 +34,7 @@ open class Class {
 
 //    abstract fun AbstractFun()
 
-    //Can be used too: internal and all above key-words within functions, and also,
-    //all below types of classes
+    //...
 }
 
 class UsageOfInheritMethods : Class() {
@@ -89,7 +88,7 @@ internal class InternalClass() {}
 
 
 //SEALED CLASS:
-//Sealed classes can be inherited only by the classes within the file it was created
+//Sealed classes are abstract classes that can be inherited only by the classes within the file it was created
 sealed class SealedClass() {}
 //---------------------------------------------------------------------------------------------
 
