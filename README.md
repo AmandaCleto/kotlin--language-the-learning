@@ -2,7 +2,7 @@
 
 A learning project covering the entire foundation and syntax of the Kotlin language, based on Android Express course, Google Kotlin Bootcamp and my own research :)
 
-### A study project on **Flutter**
+### A study project on **Kotlin**
 
 [![Kotlin](https://amandacleto.github.io/images-for-projects/public/images/github-readme/icon-kotlin-logo.svg)](https://kotlinlang.org/)
 
