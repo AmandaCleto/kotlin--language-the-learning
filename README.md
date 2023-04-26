@@ -1,4 +1,4 @@
-# Kotlin 🧮
+# Kotlin
 
 A learning project covering the entire foundation and syntax of the Kotlin language, based on Android Express course, Google Kotlin Bootcamp and my own research :)
 
