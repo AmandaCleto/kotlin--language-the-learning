@@ -4,6 +4,12 @@
 //an interface, it must override its methods
 //A class can implement multiple interfaces, different from inherit
 
+/* When to use abstract classes VS interfaces?
+Interfaces: when you want to create a contract, an addiction behavior to a class, that must implement it;
+also, you want that the class that will implement the interface became a type - the interface type.
+Abstract: when you want to reuse the same methods and properties of an upper class
+*/
+
 interface Playable {
     fun play() : String
 }
